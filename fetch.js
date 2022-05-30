@@ -10,8 +10,5 @@ sendRequest('GET', requestURL)
   .then(data => console.log(data))
   .catch(err => console.log(err))
 
-const body = {
-  name: 'Vladilen',
-  age: 26
-}
+
 
